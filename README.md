@@ -1,5 +1,5 @@
 # Aurora
-![Image](https://github.com/diy4hobby/Aurora/blob/assets/photo_2025-10-18_16-21-48.jpg)
+![Image](https://github.com/diy4hobby/Aurora/blob/assets/photo_2025-10-19_20-34-56.jpg)
 
 **Aurora** is a weather informer device, built around the ESP32C3 microcontroller and an 800x480 e-ink display. The device shows the current time, day of the week, date, current weather conditions, a two-day weather forecast, and a small event log for monitoring system operation.
 The project is written in C++ using classes, which allows easy extension by adding new weather data sources and time synchronization methods. Its flexible architecture enables integration of additional display elements beyond the current configuration, making future expansions straightforward to implement.

